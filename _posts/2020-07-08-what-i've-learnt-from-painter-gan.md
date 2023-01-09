@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Language Tests"
+title: "What I've Learnt from Kaggle's "I am some what of a Painter" Competition"
 ---
 
 Note: Text is from [moving](https://github.com/huangyz0918/moving), which is another good Jekyll theme.
