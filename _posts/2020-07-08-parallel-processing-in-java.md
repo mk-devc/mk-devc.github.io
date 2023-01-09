@@ -11,7 +11,10 @@ The ThreadPoolExecutor class extends the AbstractExecutorService class and provi
 
 You can use the ThreadPoolExecutor to execute Runnable tasks as follows:
 
-```Java
+
+
+```java
+
 ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(5);
 
 for (int i = 0; i < 10; i++) {
@@ -31,7 +34,9 @@ The Fork/Join framework provides the ForkJoinPool class, which is an implementat
 
 You can use the ForkJoinPool to execute ForkJoinTask tasks as follows:
 
-```Java
+
+
+```java
 ForkJoinPool forkJoinPool = new ForkJoinPool();
 
 MyTask task = new MyTask(0, 100);
